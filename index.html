@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Key Generator Hamster Kombat</title>
+    <link rel="icon" type="image" href="path/IMG_1838.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="creators">
+            <a href="https://t.me/clubINVESTORS_S" target="_blank" class="creator-link"><button> Канал первого создателя
+            </button></a>
+            <a href="https://t.me/hamster_key2024" target="_blank" class="creator-link"><button> Канал второго создателя
+            </button></a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="game-selection">
+            <div class="game" data-game="🚴‍♂️Riding Extreme 3D">
+                <img src="path/riding_extreme.png" alt="Riding Extreme 3D">
+                <p>🚴‍♂️ Riding Extreme 3D</p>
+            </div>
+            <div class="game" data-game="🚂Train Miner">
+                <img src="path/train_miner.png" alt="Train Miner">
+                <p>🚂 Train Miner</p>
+            </div>
+            <div class="game" data-game="🎲Chain Cube">
+                <img src="path/chain_cube.jpg" alt="Chain Cube">
+                <p>🎲 Chain Cube</p>
+            </div>
+            <div class="game" data-game="🤖My Clone Army">
+                <img src="path/my-clone-army.jpg" alt="My Clone Army">
+                <p>🤖 My Clone Army</p>
+            </div>
+            <div class="game" data-game="🧑‍🍳Merge Away">
+                <img src="path/merge_away.jpg" alt="Merge Away">
+                <p>🧑‍🍳 Merge Away</p>
+            </div>
+            <div class="game" data-game="🏃Twerk Race">
+                <img src="path/twerk_race.jpg" alt="Twerk Race">
+                <p>🏃 Twerk Race</p>
+            </div>
+        </div>
+        <div id="keySelection">
+            <label for="keyCount">Выберите количество ключей:</label>
+            <select id="keyCount">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <button id="startBtn">Генерация</button>
+        </div>
+        <div id="generationMessage" class="hidden"></div>
+        <div><p id="loaderMessage"></p></div>
+        <div id="loaderContainer" class="hidden">
+            <div class="loader">
+                <div class="intern"></div>
+                <div class="external-shadow">
+                    <div class="central"></div>
+                </div>
+            </div>
+        </div>
+        <div id="keyContainer" class="hidden">
+            <div id="keysList">
+            </div>
+            <button id="copyAllBtn" class="hidden">Копировать все ключи</button>
+        </div>
+        <div id="notification" class="notification hidden">Копирование выполнено</div>
+        <div style="
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        padding: 10px 20px;
+        background-color: #d62c2c;
+        color: white;
+        border-radius: 5px;
+        z-index: 1000;" id="notifications" class="notification hidden">Копирование выполнено</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
