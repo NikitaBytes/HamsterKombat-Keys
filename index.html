@@ -1,23 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Key Generator Hamster Kombat</title>
-    <link rel="icon" type="image" href="path/IMG_1838.jpg">
+    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="google">
+<title>Key Generator Hamster Kombat</title>
+<link rel="icon" type="image" href="path/IMG_1838.jpg">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="creators">
-            <a href="https://t.me/clubINVESTORS_S" target="_blank" class="creator-link"><button> Канал первого создателя
-            </button></a>
-            <a href="https://t.me/hamster_key2024" target="_blank" class="creator-link"><button> Канал второго создателя
-            </button></a>
+        <div class="header-content">
+            <h2 class="exclusive-content">Эксклюзивный контент, свежие новости и обновления!</h2>
+            <div class="creators">
+                <a href="https://t.me/clubINVESTORS_S" target="_blank" class="creator-link">
+                    <button>Канал первого создателя</button>
+                </a>
+                <a href="https://t.me/hamster_key2024" target="_blank" class="creator-link">
+                    <button>Канал второго создателя</button>
+                </a>
+            </div>
+            <h2 class="exclusive-content-mobile">Обновления и Новости</h2>
         </div>
     </header>
+    
+    
     <div class="container">
         <div class="game-selection">
             <div class="game" data-game="🚴‍♂️Riding Extreme 3D">
@@ -44,14 +53,23 @@
                 <img src="path/twerk_race.jpg" alt="Twerk Race">
                 <p>🏃 Twerk Race</p>
             </div>
+            <div class="game" data-game="🐋Polysphere">
+                <img src="path/polysphere.jpg" alt="Polysphere">
+                <p>🐋 Polysphere</p>
+            </div>
         </div>
         <div id="keySelection">
-            <label for="keyCount">Выберите количество ключей:</label>
+            <label for="keyCount">Выберетите количество ключей:</label>
             <select id="keyCount">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="FullPlays">4 ключа для 6 игр</option>
             </select>
             <button id="startBtn">Генерация</button>
         </div>
@@ -59,7 +77,7 @@
         <div><p id="loaderMessage"></p></div>
         <div id="loaderContainer" class="hidden">
             <div class="loader">
-                <div class="intern"></div>
+                <div class="intern" id="progressText"><strong>0%</strong></div>
                 <div class="external-shadow">
                     <div class="central"></div>
                 </div>
@@ -71,15 +89,8 @@
             <button id="copyAllBtn" class="hidden">Копировать все ключи</button>
         </div>
         <div id="notification" class="notification hidden">Копирование выполнено</div>
-        <div style="
-        position: fixed;
-        bottom: 10px;
-        right: 10px;
-        padding: 10px 20px;
-        background-color: #d62c2c;
-        color: white;
-        border-radius: 5px;
-        z-index: 1000;" id="notifications" class="notification hidden">Копирование выполнено</div>
+        <div style="position: fixed; bottom: 10px; right: 10px; padding: 10px 20px; background-color: #d62c2c; color: white; border-radius: 5px; z-index: 1000;" id="notifications" class="notification hidden">Копирование выполнено</div>
+    </div>
     </div>
     <script src="script.js"></script>
 </body>
