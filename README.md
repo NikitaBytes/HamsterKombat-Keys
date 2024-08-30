@@ -37,6 +37,8 @@ This file handles the technical aspects of the application. The main functions i
   - 🧑‍🌾 Mow and Trim
   - 🏎️ Mud Racing
   - ☕️ Cafe Dash
+  - 🚓 Gangs Wars
+  - 🐯 Zoopilis
 
 - **Key Generation**: Users can select the number of keys (from 1 to 8) or generate 4 keys each for 6 games simultaneously (a total of 24 keys).
 
@@ -115,6 +117,8 @@ The project was developed by **NikitaBytes**. You can contact the author via [Te
   - 🧑‍🌾 Mow and Trim
   - 🏎️ Mud Racing
   - ☕️ Cafe Dash
+  - 🚓 Gangs Wars
+  - 🐯 Zoopilis
 
 - **Генерация ключей**: Пользователь может выбрать количество ключей (от 1 до 8) или сгенерировать по 4 ключа для 6 игр сразу (всего 24 ключа).
 
